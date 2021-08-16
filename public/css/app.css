@@ -1,0 +1,164 @@
+html {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    top: auto;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+        background: linear-gradient(35deg, #1d0b1d, #4b534b) no-repeat center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    color: #dbdbdb;
+    top: auto;
+
+}
+
+.app {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.app h1,
+.app h2,
+.app h3,
+.app h4,
+.app h5,
+.app h6 {
+    font-family: 'Uchen', serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.app .form,
+.app .contenedor {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.app .form input,
+.app .form label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    height: 50%;
+}
+
+.app .form input,
+.app .contenedor .link,
+.app .contenedor input[type=submit] {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid rgba(0,0,0, 0.4);
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    box-shadow: 9px 9px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.app .form label {
+    margin-bottom: 15px;
+    color: #d2d2d2;
+}
+.app .form input.new,
+.app .contenedor .link,
+.app .contenedor input[type=submit] {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid rgba(0,0,0, 0.4);
+    background-color: #241e1e;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    box-shadow: 9px 9px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.app .form input[type=submit],
+.app .contenedor .link,
+.app .contenedor input[type=submit] {
+    width: 50%;
+    background-color: #1a1212;
+    border: 1px solid #acacac;
+    color: #d4e3d1;
+    display: block;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+    height: 50%;
+}
+
+.app .form input[type=submit] {
+    margin: 100px auto 0;
+}
+
+.app .contenedor p {
+    font-size: 20px;
+}
+
+.app .contenedor .lista {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.app .contenedor .lista .show-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.app .contenedor .lista li {
+    list-style: none;
+    position: relative;
+}
+
+.app .contenedor .lista li::before {
+    content: "*";
+    position: absolute;
+    top: 8px;
+    left: -30px;
+    font-size: 26px;
+}
+
+
+
+.app .form__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+}
+
+.app .form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+.app .form__input:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+}
+
+

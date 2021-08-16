@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+        background: linear-gradient(35deg, #ffffff, #657382) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    color: #ef2929;
+}
+
+.app {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.app h1,
+.app h2,
+.app h3,
+.app h4,
+.app h5,
+.app h6 {
+    font-family: 'Uchen', serif;
+    text-align: center;
+    color: #db0000;
+}
+
+.app .form,
+.app .contenedor {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.app .form input,
+.app .form label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.app .form input,
+.app .contenedor .link,
+.app .contenedor input[type=submit] {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid rgba(0,0,0, 0.4);
+    background-color: #b61515;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    box-shadow: 9px 9px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.app .form label {
+    margin-bottom: 15px;
+    color: #ff0000;
+}
+.app .form input.new,
+.app .contenedor .link,
+.app .contenedor input[type=submit] {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid rgba(0,0,0, 0.4);
+    background-color: #b61515;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    box-shadow: 9px 9px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.app .form input[type=submit],
+.app .contenedor .link,
+.app .contenedor input[type=submit] {
+    width: 50%;
+    background-color: #ff0000;
+    border: 1px solid #acacac;
+    color: #44f100;
+    display: block;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+}
+
+.app .form input[type=submit] {
+    margin: 100px auto 0;
+}
+
+.app .contenedor p {
+    font-size: 20px;
+}
+
+.app .contenedor .lista {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.app .contenedor .lista .show-link {
+    text-decoration: none;
+    color: #ff0303;
+    font-size: 30px;
+}
+
+.app .contenedor .lista li {
+    list-style: none;
+    position: relative;
+}
+
+.app .contenedor .lista li::before {
+    content: "*";
+    position: absolute;
+    top: 8px;
+    left: -30px;
+    font-size: 26px;
+}
+
+
+
+
